@@ -128,7 +128,7 @@ function SearchMovie() {
     });
 }
 
-if (window.location.pathname.indexOf("index") !== -1) {
+if (window.location.pathname.indexOf("search") === -1) {
   FetchList(
     "popular",
     "movie/popular?api_key=9c52db004e23905278d4913727394bcf&language=zh-TW&page=1&region=TW"
