@@ -104,7 +104,7 @@ a:visited {
   position: absolute;
   font-size: 10rem;
   letter-spacing: 5rem;
-  margin-right: -5rem;
+  padding-left: 5rem;
   color: #fff;
 }
 
@@ -432,7 +432,8 @@ footer {
   }
   .title {
     font-size: 2rem;
-    letter-spacing: 3.5rem;
+    letter-spacing: 2.5rem;
+    padding-left: 2.5rem;
   }
   .blur {
     -webkit-clip-path: inset(15rem 3rem);
