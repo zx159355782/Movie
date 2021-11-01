@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="picture/favicon.ico" rel="shortcut icon" />
+    <title>Movie 搜尋結果</title>
+  </head>
+  <body>
+    <div id="root">
+      <nav class="navbar">
+        <a href="index.html">
+          <i class="fas fa-video"></i>
+          Movie
+        </a>
+        <form class="search">
+          <input class="search-bar" type="text" placeholder="搜尋電影" /><button
+            class="search-button"
+          >
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </nav>
+      <main id="main"></main>
+      <footer>
+        <span>資料來源:</span>
+        <a href="https://www.themoviedb.org/" target="_blank">TMDB</a>
+      </footer>
+    </div>
+    <div class="modal-bg">
+      <div class="modal"></div>
+    </div>
+    <script type="text/javascript" src="myjs.js"></script>
+  </body>
+</html>
