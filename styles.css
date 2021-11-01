@@ -357,7 +357,7 @@ main {
   opacity: 0;
   top: 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.822);
 }
 
@@ -387,6 +387,7 @@ footer {
   }
   .modal {
     width: 72%;
+    height: 35%;
   }
   .modal-right p {
     font-size: 1rem;
